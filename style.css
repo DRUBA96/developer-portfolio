@@ -1,0 +1,70 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin:0;
+}
+.orange{
+    color: orange;
+}
+.flexible-container{
+    display: flex;
+    margin-bottom: 150px;
+}
+.half-width{
+    width: 50%;
+    padding-left: 5%;
+}
+.half-width img{
+    width: 80%;
+    padding-left: 5%;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(orange,tomato);
+    color: white;
+    padding: 10px 40px;
+    border-radius: 5px;   
+}
+.top-banner{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+.dream-big{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    margin-bottom: 150px;
+}
+.experience-area{
+background-image: url(images/exp-bg.png);
+background-repeat: no-repeat;
+background-position: left;
+
+}
+.experience-item{
+    width:40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 40px;
+    
+    box-shadow: 10px 10px 40px gray;
+    
+    
+}
+#web-deb-experience{
+    border-left: 5px solid;
+    border-image: linear-gradient(blue,cyan);
+    border-image-slice: 1;
+}
+#full-deb-experience{
+    border-left: 5px solid;
+    border-image: linear-gradient(rgb(223, 238, 17),cyan);
+    border-image-slice: 1;
+}
+footer{
+    text-align: center;
+    height: 100px;
+    background-color: black;
+    color: white;
+    padding-top: 60px ;
+    
+}
